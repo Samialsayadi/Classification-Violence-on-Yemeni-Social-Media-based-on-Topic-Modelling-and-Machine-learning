@@ -1,4 +1,4 @@
-# Classification Violence on Yemeni Social Media based on Topic Modelling and Machine learning
+# Radical Violence in Yemenis’ Social media: Leveraging Sentiment Analysis and Deep Learning to Detect Radical Violence on Social Media
 
 # Data Collection 
 # Classification Violence tweets based on Topic Modelling 
