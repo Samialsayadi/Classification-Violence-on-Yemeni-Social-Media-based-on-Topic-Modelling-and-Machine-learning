@@ -2,6 +2,7 @@
 
 # Data Collection 
 # Classification Violence tweets based on Topic Modelling 
+# Validation Classification based on Deep Learning
 # Validation Classification based on Machine Learning
 # Sentiment Analysis
 
