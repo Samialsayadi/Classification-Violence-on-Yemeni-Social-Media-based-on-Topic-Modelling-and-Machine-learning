@@ -25,3 +25,12 @@ Houthi militias terrorize Yemeni people     0.9928    0.9853    0.9890      8516
                            weighted avg     0.9840    0.9839    0.9839     15413
                            
 ```
+# Dependencies
+
+* [NLTK:](https://anaconda.org/anaconda/nltk) `conda install nltk` 
+* [Pandas:](https://pypi.org/project/pandas/) `pip install pandas `.
+* [Numpy:](https://anaconda.org/anaconda/numpy) `conda install -c anaconda numpy `.
+* [Scikit-cmeans:](https://pypi.org/project/scikit-cmeans) `pip install scikit-cmeans`.
+* [Keras:](https://pypi.org/project/keras/) `pip install keras`.
+* [Tensorflow:](https://www.tensorflow.org/install) `pip install tensorflow`.
+* [LDA:](https://pypi.org/project/lda/) `pip install lda`.
