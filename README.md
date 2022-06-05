@@ -1,30 +1,17 @@
 # Radical Violence in Yemenis’ Social media: Leveraging Sentiment Analysis and Deep Learning to Detect Radical Violence on Social Media
-
+A Detection Radical Violence System (DRVS) is a proposed system to detect violence based on sentiment analysis and Deep Learning algorithms.
 # Data Collection 
+we collect a new dataset by API twitter Crawling for user com- ments and opinions on Yemenis’ Social Media. There are various techniques used for Crawling, such as API twitter, spider. The target will be a company’s website or their account on social media.
 # Classification Violence tweets based on Topic Modelling 
+ we labelled the dataset with the aspects by using Word2Vec [9] to measure the similarity degree between the aspects, which were selected in the previous phase and the sentences in the dataset. And give each sentence one aspect based on a high similarity degree. To validate the selection for the aspects, we used the topic modeling method (Latent Dirichlet Allocation algorithm) [8] to classify the users’ comments into Topics. In this phase, each sentence has a topic, and each topic has 20 top-keywords. Based on the topic’s keywords, we can determine aspects to each sentence and then apply labeling to the dataset.
 # Validation Classification based on Deep Learning
+to validadtion classification Processing, we used  machine learning (Naive Bayes Classifier (NBC),  Rocchio classification, Boosting and Bagging, Bagging, K-nearest Neighbor, Support Vector Machine (SVM), Conditional Random Field (CRF) and Decision Tree) to re-classification processing. we reached to high competitive result.
 # Validation Classification based on Machine Learning
+we used also Deep Neural Networks architectures to re-classification to validated classification processing. 
+in this reseach, we used convolutional neural network, Recurrent neural networks, Deep neural networks and  Recurrent convolutional neural network
 # Sentiment Analysis
+Sentiment Analysis (VADER, Textblob, or wordnet ) is used for each aspect. So, we found out the polarities of the users’ opinions to each aspect to generate the sentiment (Informative), but we found some sentences have key- words that reflect Negative, or Positive (informative ) at the same time these keywords by Lexicon Emotions reflect to the opposite results. So, we used lexi- con Emotion such (NRC and SenticNet) to find users’ emotions to each aspect and generated the sentiment analysis (emotional).
 
-# Results 
-
-Results:
-
-```
-
-                                         precision    recall  f1-score   support
-
-        Religious organization violence     0.9693    0.9844    0.9768      1217
-Houthi militias terrorize Yemeni people     0.9928    0.9853    0.9890      8516
-            international peace threats     0.9582    0.9805    0.9692      1028
-                      racist tendencies     0.9769    0.9774    0.9771      2034
-    Recruitment and killing of children     0.9780    0.9855    0.9817      2618
-
-                               accuracy                         0.9839     15413
-                              macro avg     0.9750    0.9826    0.9788     15413
-                           weighted avg     0.9840    0.9839    0.9839     15413
-                           
-```
 # Dependencies
 
 * [NLTK:](https://anaconda.org/anaconda/nltk) `conda install nltk` 
